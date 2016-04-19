@@ -11,7 +11,8 @@
 angular
   .module('stepsModalApp', [
     'ngCookies',
-    'ngRoute'
+    'ngRoute',
+    'ui.bootstrap'
   ])
   .config(function ($routeProvider) {
     $routeProvider
